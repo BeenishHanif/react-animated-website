@@ -8,7 +8,7 @@ import Slider from './Slider'
 
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
     <Navbar/>
      <Slider/>
     <Contact/>

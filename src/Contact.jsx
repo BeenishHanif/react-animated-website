@@ -9,8 +9,8 @@ import { PiPaperPlaneTiltBold } from "react-icons/pi";
 
 const Contact = () => {
   return (
-    <div className='flex flex-col gap-14 lg:gap-0 lg:flex-row items-center lg:pl-28 lg:pr-16 xl:pr-16  xl:pl-32 mt-28 '>
-        <motion.div initial={{translateX:-500}} whileInView={{translateX:0}} transition={{duration:0.6,type:'tween'}} className='grid justify-center px-4 pr-4 xl:px-24 items-center gap-x-5 gap-y-7  lg:w-[70%] grid-rows-4 md:grid-cols-2 md:grid-rows-2  '>
+    <div id='contact' className='flex flex-col gap-14 lg:gap-0 lg:flex-row items-center lg:pl-28 lg:pr-16 xl:pr-16  xl:pl-32 mt-28 '>
+        <motion.div initial={{translateX:-80}} whileInView={{translateX:0}} transition={{duration:0.6,type:'tween'}} className='grid justify-center px-4 pr-4 xl:px-24 items-center gap-x-5 gap-y-7  lg:w-[70%] grid-rows-4 md:grid-cols-2 md:grid-rows-2  '>
             <div className='rounded-lg h-60 w-64 text-black shadow-xl shadow-slate-700  flex justify-center items-center gap-8  flex-col'>
             <PiPaperPlaneTiltBold className='text-6xl font-semibold' />
             <h1 className='text-xl text-center'>Branding and Digital Strategies</h1>

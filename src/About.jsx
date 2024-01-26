@@ -9,7 +9,7 @@ import {motion} from "framer-motion"
 
 const About = () => {
   return (
-    <div className='flex mt-28 flex-col gap-14  xl:flex-row items-center xl:pl-20'>
+    <div id='aboutus' className='flex mt-28 flex-col gap-14  xl:flex-row items-center xl:pl-20'>
          <motion.div initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:0.6}} className='flex flex-col xl:w-[30%] w-full order-first pt-20 lg:pt-0 px-5  font-body justify-center items-center xl:items-start lg:justify-start  '>
         <div  className="text-xl font-extrabold md:text-3xl xl:text-4xl flex-row  xl:gap-5 flex xl:flex-col ">
         <span>

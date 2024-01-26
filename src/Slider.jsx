@@ -6,7 +6,7 @@ import React from "react";
 const Slider = () => {
   return (
     <div className="flex gap-20 px-20 lg:px-28 py-24 md:py-20 justify-between bg-gradient-to-r from-[#a059d6] via-[#8f81f4] to-[#5b73c8]">
-      <motion.div initial={{translateX:-500}} whileInView={{translateX:0}} transition={{duration:0.6,type:'tween'}} className="w-[60%] text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-body font-extrabold gap-2 md:gap-5 lg:gap-8 flex flex-col justify-center">
+      <motion.div initial={{translateX:-20}} whileInView={{translateX:0}} transition={{duration:0.6,type:'tween'}} className="w-[60%] text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-body font-extrabold gap-2 md:gap-5 lg:gap-8 flex flex-col justify-center">
         <h1>
           Great Marketing
         </h1>

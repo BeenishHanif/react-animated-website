@@ -31,7 +31,7 @@ const SignupLogin = () => {
           <img src={image} className="h-full  relative " />
           <div className="absolute text-white bottom-1/4  flex flex-col gap-5 justify-center align-center">
             <h1 className="text-4xl text-bold m-auto font-body">{!signUp ? "HELLO FRIEND!" : "WELCOME BACK!"}</h1>
-            <h1>{!signUp ? "Enter your personal details and start journey with us!": "To keep Connected with us please login with your credentials"}</h1>
+            <h1 >{!signUp ? "Enter your personal details and start journey with us!": "To keep Connected with us please login with your credentials"}</h1>
           <button className="rounded-full m-auto w-fit py-2 px-4 border-white border-2" onClick={signUpPage}>{!signUp ? "Sign up":"Sign in"}</button>
           </div>
         </div>

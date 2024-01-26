@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const Services = () => {
   return (
-    <div className='flex flex-col gap-14 lg:gap-0 lg:flex-row items-center lg:pl-28 lg:pr-16 xl:pr-16  xl:pl-32 mt-28 '>
+    <div id='services' className='flex flex-col gap-14 lg:gap-0 lg:flex-row items-center lg:pl-28 lg:pr-16 xl:pr-16  xl:pl-32 mt-28 '>
         <motion.div initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:0.9, type:'tween'}} className='flex justify-center px-4 pr-4 xl:px-24 items-center  lg:w-[70%]  '>
            <img src={image}/>
         </motion.div>
